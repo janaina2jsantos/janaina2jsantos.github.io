@@ -1,1 +1,1 @@
-# janaina2jsantos/pages.github.io
+# janaina2jsantos.github.io
