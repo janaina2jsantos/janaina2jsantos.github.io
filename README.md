@@ -1,4 +1,4 @@
 # janaina2jsantos.github.io
 
 
-Portfólio com diversas páginas e projetos.
+Pages built with HTML, CSS, Bootstrap e JS.
