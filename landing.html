@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <title>Landing Page</title>     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="Descriçao do site" />      
+    <meta name="keywords" content="Palavras chave separadas por vírgula" />
+    <meta name="author" content="Janaina Santos" />
+    <!-- styles -->
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/landing.css" />  
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<div class="container" id="topo">
+			<a href="#">
+				<div><div class="logo01"></div></div>
+			</a>
+			<a href="#">
+				<div><div class="logo02"></div></div>
+			</a>
+			<div class="clear"></div>
+		</div>
+	</header>
+
+	<!-- form contato -->
+	<section class="cover-form">
+		<div class="container bg">
+			<div class="form-container">
+				<h2>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO.</h2>
+				<form id="contactForm" method="POST">
+					<div class="form-group">
+						<label>*&nbsp;Nome completo</label>
+						<input type="text" name="nome" id="nome" placeholder="Nome" required />
+					</div>
+					<div class="form-group">
+						<label>*&nbsp;E-mail</label>
+						<input type="text" name="email" id="email" placeholder="E-mail" required />
+					</div>
+					<div class="form-group">
+						<label>*&nbsp;Telefone</label>
+						<input type="text" name="telefone" id="telefone" placeholder="Tel: (xx) xxxx-xxxx" required />
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary" id="enviar">saiba mais</button>
+					</div>
+					<div class="form-group">
+						<label>*&nbsp;Campos obrigatórios</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- chamada principal -->
+	<section class="chamada">
+		<div class="container">
+			<h2>Mauris justo ligula, vulputate quis tellus sit amet, eleifend maximus felis. Etiam ut orci cursus, congue magna eget.</h2>
+			<p>Lorem ipsum dolor sit amet</p>
+		</div>
+	</section>
+	<div class="clear"></div>
+
+	<!-- mosaico de fotos -->
+	<section class="mosaico">
+		<div class="container container-mosaico">
+			<div class="flex-mosaico">
+				<div class="item1-mosaico" style="background: url(./assets/img/mosaico01.jpg) center;">
+				</div>
+				<div class="item2-mosaico">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quam quam, pharetra non dictum a, dignissim eget felis. Nulla ac neque luctus, semper purus non, rutrum orci. Morbi eu ipsum sollicitudin, facilisis est quis, vestibulum dui. Ut interdum elementum auctor. Sed hendrerit pellentesque lectus ut mattis.</p>
+				</div>
+			</div>
+
+			<div class="flex-mosaico" style="flex-direction: row-reverse;">
+				<div class="item1-mosaico" style="background: url(./assets/img/mosaico02.jpg); background-position-x: inherit;  background-position-y: bottom; ">
+				</div>
+				<div class="item2-mosaico">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quam quam, pharetra non dictum a, dignissim eget felis. Nulla ac neque luctus, semper purus non, rutrum orci. Morbi eu ipsum sollicitudin, facilisis est quis, vestibulum dui. Ut interdum elementum auctor. Sed hendrerit pellentesque lectus ut mattis.</p>
+				</div>
+			</div>
+
+			<div class="flex-mosaico">
+				<div class="item1-mosaico" style="background: url(./assets/img/mosaico03.jpg) center;">
+				</div>
+				<div class="item2-mosaico">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quam quam, pharetra non dictum a, dignissim eget felis. Nulla ac neque luctus, semper purus non, rutrum orci. Morbi eu ipsum sollicitudin, facilisis est quis, vestibulum dui. Ut interdum elementum auctor. Sed hendrerit pellentesque lectus ut mattis.</p>
+				</div>
+			</div>
+
+			<div class="flex-mosaico" style="flex-direction: row-reverse;">
+				<div class="item1-mosaico" style="background: url(./assets/img/mosaico04.jpg) center;">
+				</div>
+				<div class="item2-mosaico">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quam quam, pharetra non dictum a, dignissim eget felis. Nulla ac neque luctus, semper purus non, rutrum orci. Morbi eu ipsum sollicitudin, facilisis est quis, vestibulum dui. Ut interdum elementum auctor. Sed hendrerit pellentesque lectus ut mattis.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer>
+		<hr>
+		<a href="#topo"><img src="./assets/img/logo1.png" /></a>
+		<p>2018 - <span id="year"></span>&copy - Todos os direitos reservados</p>
+		<p><a href="mailto:janaina2jsantos@gmail.com" class="link">Janaina Santos</a> | <a href="#" class="link">Contato: 3222-9999</a></p>
+	</footer>
+
+	<!-- chevron -->
+	<div class="chevron">
+		<a href="#topo"><img src="./assets/img/chevron-arrow.png" /></a>
+	</div>
+	
+	<!-- scripts -->
+	<script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/landing.js"></script>
+</body>
+</html> 

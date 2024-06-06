@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <title>Site de Tecnologia</title>     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="Descriçao do site" />      
+    <meta name="keywords" content="Palavras chave separadas por vírgula" />
+    <meta name="author" content="Janaina Santos" />
+    <!-- styles -->
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/custom.css" />  
+</head>
+
+<body>
+	<!-- modal contato -->
+	<div class="bgModal">
+		<div class="formModal">
+			<form id="contactForm" method="POST">
+				<input type="text" name="nome" id="nome"  placeholder="* Nome" required />
+				<input type="text" name="email" id="email" placeholder="* E-mail" required />
+				<input type="text" name="telefone"  id="telefone" placeholder="* Tel: (xx) xxxx-xxxx" required />
+				<textarea name="mensagem" id="mensagem" placeholder="* Mensagem" required ></textarea>
+				<button type="submit" id="enviar">Enviar</button>
+				<div class="btnClose">X</div>
+			</form>
+		</div>
+	</div>
+   	
+   	<!-- header -->
+	<header id="topo">
+		<div class="container" id="topoMenu">
+			<a href="#"><div class="logo"></div></a>
+			<nav class="desktop-menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#depoimentos">Depoimentos</a></li>
+					<li><a href="#contato">Localização</a></li>
+					<li class="showModal">Contato</li>
+				</ul>
+			</nav>
+			<nav class="mobile-menu">
+				<ul>
+					<li style="border-top: 1px solid black;"><a href="">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#servicos">Serviços</a></li>
+					<li><a href="#depoimentos">Depoimentos</a></li>
+					<li class="showModal">Contato</li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+			<div class="chamada01">
+				<h2>Sistemas Próprios<br /> para Empresas Autênticas</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc magna, lobortis at dui sed, placerat euismod tortor. Morbi ac varius turpis, nec tempus augue. Mauris id risus accumsan, porta nisl posuere, aliquet odio. Sed vehicula quam viverra tortor eleifend, in blandit lacus cursus.</p>
+			</div>
+		</div>
+	</header>
+
+	<section class="secao01" id="sobre">
+  		<div class="container">
+  			<div class="texto-secao01">
+  				<h2>Desenvolvendo Sistemas Únicos</h2>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  				<ul>
+  					<li>Sites Responsivos</li>
+  					<li>Lojas Virtuais</li>
+  					<li>Sistemas</li>
+  				</ul>
+  				<div class="clear"></div>
+  				<div class="showModal btn-contato">Entre em contato</div>
+  			</div>
+
+  			<div class="device-secao01">
+  				<img src="./assets/img/LG-G6.png" />
+  			</div>
+  			<div class="clear"></div>
+  		</div>
+	</section>
+
+	<!-- servicos -->
+	<section class="secao02" id="servicos">
+ 		<div class="container">
+ 			<h2>Desenvolvido de pessoas para pessoas</h2>
+ 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc magna, lobortis at dui sed, placerat euismod tortor consectetur adipiscing elit.</p>
+ 			<img src="./assets/img/ipad.jpg" alt="ipad e tecnologia" />
+ 		</div>
+	</section>
+
+	<!-- depoimentos -->
+	<section class="secao03" id="depoimentos">
+ 		<div class="container">
+	 		<div class="parte01">
+	 			<div class="wrapper-parte01">
+	 				<h2>Nosso time</h2>
+	 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc magna, lobortis at dui sed, placerat euismod tortor consectetur adipiscing elit.</p>
+	 			</div>
+	 		</div>
+ 			
+ 			<div class="parte02">
+ 				<div class="scrollEquipe">
+ 					<div class="wrapper-scroll">
+		 				<!-- depoimento 01 -->
+		 				<div class="sobre-autor" id="sobre-autor01">
+		 					<div class="titulo-autor">
+		 						<div class="wrapper-titulo-autor">
+		 							<h2>Gustavo de Carvalho</h2>
+		 							<p>Co-Founder / Desenvolvedor</p>
+		 						</div>
+		 						<div class="img-autor"><img src="./assets/img/man.jpg" /></div>
+		 					</div>
+		 					<div class="texto-autor">
+	 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc magna, lobortis at dui sed, placerat euismod tortor. Morbi ac varius turpis, nec tempus augue. Mauris id risus accumsan.</p>
+		 					</div>
+		 				</div>
+
+		 				<!-- depoimento 02 -->
+		 				<div class="sobre-autor" id="sobre-autor02" style="display: none;">
+		 					<div class="titulo-autor">
+		 						<div class="wrapper-titulo-autor">
+		 							<h2>Joana Rezende Souza</h2>
+		 							<p>Analista de Sistemas</p>
+		 						</div>
+		 						<div class="img-autor"><img src="./assets/img/woman02.jpg" /></div>
+		 					</div>
+		 					<div class="texto-autor">
+	 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc magna, lobortis at dui sed, placerat euismod tortor. Morbi ac varius turpis, nec tempus augue. Mauris id risus accumsan.</p>
+		 					</div>
+		 				</div>
+		 				
+		 				<!-- depoimento 03 -->
+		 				<div class="sobre-autor" id="sobre-autor03" style="display: none;">
+		 					<div class="titulo-autor">
+		 						<div class="wrapper-titulo-autor">
+		 							<h2>Marcelo Augusto Lopes</h2>
+		 							<p>Gerente Administrativo</p>
+		 						</div>
+		 						<div class="img-autor"><img src="./assets/img/man02.jpg" /></div>
+		 					</div>
+		 					<div class="texto-autor">
+	 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc magna, lobortis at dui sed, placerat euismod tortor. Morbi ac varius turpis, nec tempus augue. Mauris id risus accumsan.</p>
+		 					</div>
+		 				</div>
+	 				</div>
+ 				</div>
+
+ 				<div class="slider-bullets">
+ 					<span class="slide-bullet active" id="bullet01"></span>
+ 					<span class="slide-bullet" id="bullet02"></span>
+ 					<span class="slide-bullet" id="bullet03"></span>
+ 				</div>
+ 			</div>
+ 		</div>
+	</section>
+	<div class="clear"></div>
+
+	<!-- form contato -->
+	<section class="secao04" id="contato">
+		<div class="container">
+			<div class="form">
+				<h2>Entre em contato</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc magna, lobortis at dui sed, placerat euismod tortor. Morbi ac varius turpis, nec tempus augue. Mauris id risus accumsan.</p>
+				<form id="contactForm02" method="POST">
+					<input type="text" name="nome" id="nome02" placeholder="* Nome" required />
+					<input type="text" name="email" id="email02" placeholder="* E-mail" required />
+					<textarea name="mensagem" id="mensagem02" placeholder="* Mensagem" required ></textarea>
+					<div><button type="submit" class="btn-contato">Enviar</button></div>
+				</form>
+			</div>			
+
+			<div class="wrapper-map">
+				<h2>Faça uma visita</h2>
+				<div class="wrapper-map03">
+					<div class="wrapper-map02">
+						<div class="map" id="mapa"></div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<p>2018 - <span id="year"></span>&copy - Todos os direitos reservados</p>
+			<p><a href="mailto:janaina2jsantos@gmail.com" class="link">Janaina Santos</a></p>
+			<div class="clear"></div>
+		</div>
+	</footer>
+
+	<!-- chevron -->
+	<div class="chevron">
+		<a href="#topo"><img src="./assets/img/chevron-arrow-up.png" /></a>
+	</div>
+
+	<!-- scripts -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnv7y3NuVB3H7-6XXXbtFUYOsvWql_d-8&"></script>
+	<script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+</body>
+</html> 
